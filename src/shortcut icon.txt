@@ -1,0 +1,9 @@
+Si se necesita cambiar el shortcut icon lo que hay que hacer es.
+O usar el html y poner el icon ahi 
+o
+Usar React-helmet y borrar el icono y escribir el link y el import de la siguiente forma:
+
+
+import logo from './images/logo.png'
+
+<link rel="shortcut icon" href={logo} type="image/x-icon"/>
